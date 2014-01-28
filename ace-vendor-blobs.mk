@@ -14,9 +14,7 @@
 
 # Prebuilt libraries which are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/ace/proprietary/hw/camera.default.so:obj/lib/hw/camera.default.so \
-    vendor/htc/ace/proprietary/hw/gps.spade.so:obj/lib/hw/gps.spade.so
+    vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # misc blobs
 PRODUCT_COPY_FILES += \
@@ -33,9 +31,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/ace/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so
 
-# camera blobs 
+# camera blobs
 PRODUCT_COPY_FILES += \
-    vendor/htc/ace/proprietary/hw/camera.default.so:/system/lib/hw/camera.default.so \
+    vendor/htc/ace/proprietary/hw/camera.vendor.msm7x30.so:/system/lib/hw/camera.vendor.msm7x30.so \
     vendor/htc/ace/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/ace/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/ace/proprietary/libcameraface.so:/system/lib/libcameraface.so \
